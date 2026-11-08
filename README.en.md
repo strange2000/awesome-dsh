@@ -102,7 +102,7 @@ Every criterion is at the "one grep / one command" level; you do not need to rea
 
 **📄 Case** — two plugins that never heard of each other both claimed `archived-sessions`: one swallowed the exception and silently stopped working, the other threw `Uncaught Error` and aborted its own initialization. Both behaved "correctly by their own logic"; the root is that a shared id has no contract.
 
-- Report: [`dsh-repro/reports/0004`](https://github.com/strange2000/dsh-repro/blob/main/reports/0004-settings-section-shared-id.md)
+- Report: [`dsh-repro/reports/0004`](https://github.com/strange2000/dsh-repro/blob/main/reports/0004-settings-section-shared-id.en.md)
 - Auditor: `dsh-repro/repro/settings-sections/scan-sections.cjs` (one full scan: 532 installed packages → 16 registrants → 0 collisions)
 
 ### 🌀 2.2 Silent degradation: can't read means absent, can't write means unchanged, can't count means zero
@@ -118,7 +118,7 @@ Every criterion is at the "one grep / one command" level; you do not need to rea
 
 **📄 Case** — read, write, and count sides, committed weeks apart, all sharing one habit: no step reports anything. The user sees three unrelated symptoms from one root.
 
-- Report: [`dsh-repro/reports/0006`](https://github.com/strange2000/dsh-repro/blob/main/reports/0006-bili-config-silent-defaults.md)
+- Report: [`dsh-repro/reports/0006`](https://github.com/strange2000/dsh-repro/blob/main/reports/0006-bili-config-silent-defaults.en.md)
 - Auditor: `dsh-repro/repro/bili-0003/audit-config.cjs` (8 criteria + 1 reference item)
 
 ### ⏪ 2.3 A hot-reload window that cannot confirm the version, so the installed upgrade is rolled back
@@ -144,7 +144,7 @@ Every criterion is at the "one grep / one command" level; you do not need to rea
 
 **📄 Case** — a plugin guessed three prefixes from an older layout, while the asar top level does not contain the directory level it assumed, and the package it looked for is among hundreds of `@deepseek-ai` packages that do not include it.
 
-- Reports: [`dsh-repro/reports/0003`](https://github.com/strange2000/dsh-repro/blob/main/reports/0003-dsh-bili-scroll.md) and index entry 0007
+- Reports: [`dsh-repro/reports/0003`](https://github.com/strange2000/dsh-repro/blob/main/reports/0003-dsh-bili-scroll.en.md) and index entry 0007
 - Auditor: `dsh-repro/repro/mneme-chorography/audit-t1-locate.cjs` (parses the asar header itself, no dependency)
 
 ### 📈 2.5 Unbounded growth: a retention key that points nowhere
@@ -157,7 +157,7 @@ Every criterion is at the "one grep / one command" level; you do not need to rea
 
 **📄 Case** — one table held 36% of the pages, averaging 136 KB of input per row, and none of the four retention keys covered it.
 
-- Report: [`dsh-repro/reports/0005`](https://github.com/strange2000/dsh-repro/blob/main/reports/0005-mneme-silent-failures.md)
+- Report: [`dsh-repro/reports/0005`](https://github.com/strange2000/dsh-repro/blob/main/reports/0005-mneme-silent-failures.en.md)
 - Auditor: `dsh-repro/repro/mneme-retention/audit-retention.cjs`
 
 ### 🪞 2.6 Dual source of truth: hand-written whitelist vs defaults table
@@ -170,7 +170,7 @@ Every criterion is at the "one grep / one command" level; you do not need to rea
 
 **📄 Case** — `POST /config`'s whitelist did not follow the new fields; edits were filtered out silently, and it cleared the keyword list once along the way.
 
-- Report: same [`reports/0006`](https://github.com/strange2000/dsh-repro/blob/main/reports/0006-bili-config-silent-defaults.md)
+- Report: same [`reports/0006`](https://github.com/strange2000/dsh-repro/blob/main/reports/0006-bili-config-silent-defaults.en.md)
 - Auditor: criterion B6 in `dsh-repro/repro/bili-0003/audit-config.cjs`
 
 ---
