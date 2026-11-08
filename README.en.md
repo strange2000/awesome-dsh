@@ -43,7 +43,7 @@
 
 ---
 
-## 🗺️ §1 Ecosystem map
+## 🌐 §1 Ecosystem map
 
 Only what I have **used or read**, each row labelled with how far the verification went:
 
@@ -68,7 +68,7 @@ Only what I have **used or read**, each row labelled with how far the verificati
 | 🛰️ Plugin market / web relay | [`@linxin666/dsh-web-all`](https://github.com/zhu1090093659/dsh-web) | 0.4.16 | filed | Aggregate of 21 sub-plugins including the relay |
 | 🖥️ The desktop client itself | [`anywhere-labs/dsh-desktop`](https://github.com/anywhere-labs/dsh-desktop) | 2.0.21+ | filed | Not a plugin, but many "plugin bugs" are actually its loader and market logic |
 
-### ✍️ The author's own projects (disclosed, listed separately)
+### 👤 The author's own projects (disclosed, listed separately)
 
 I also write plugins. These rows are kept apart from the table above:
 
