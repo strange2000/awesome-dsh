@@ -59,13 +59,13 @@
 
 | 能力 | 项目 | 版本 | 验证 | 一句话 |
 |---|---|---|---|---|
-| 🧠 记忆 / 蒸馏 / 仓库地志 | [`@modusensus/dsh-mneme`](https://github.com/slow-stack/mneme) | 0.12.0 | 源码 | 会话蒸馏进本地 SQLite；地志把仓库模块结构生成为可检索的 wiki |
-| 📺 定时刷 B 站 | [`dsh-bili-scroll`](https://github.com/c1overzz/dsh-bili-scroll) | 2.5.0 | 装过 | 按窗口挑视频、读字幕打分、写日报，可发邮件/私信 |
+| 🧠 记忆 / 蒸馏 / 仓库地志 | [`@modusensus/dsh-mneme`](https://github.com/slow-stack/mneme) | 0.15.1 | 源码 | 会话蒸馏进本地 SQLite；地志把仓库模块结构生成为可检索的 wiki |
+| 📺 定时刷 B 站 | [`dsh-bili-scroll`](https://github.com/c1overzz/dsh-bili-scroll) | 2.5.2 | 装过 | 按窗口挑视频、读字幕打分、写日报，可发邮件/私信 |
 | 🔄 免费模型 / 应用内升级 | [`dsh-our-free-model`](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 2.8.3 | 源码 | 路由到免费额度 + 自己实现的签名升级与热重载 |
-| 🗂️ 会话归档 | [`@linxin666/dsh-session-archive`](https://www.npmjs.com/package/@linxin666/dsh-session-archive) | 0.4.16 | 源码 | 归档旧会话，独立设置页 |
-| 🗃️ 归档管理 | [`@michengai/dsh-archive-manager`](https://github.com/MichengAI/dsh-archive-manager) | 1.2.8 | 源码 | 另一种归档方案，与上一行功能重叠、id 曾冲突 |
-| 🔇 NTR 模式 | [`dsh-ntr`](https://github.com/GDWhisper/dsh-ntr) | 0.4.1 | 源码 | 受限 agent 模式（无 MCP、审批链路不同） |
-| 🛰️ 插件市场 / Web 中继 | [`@linxin666/dsh-web-all`](https://github.com/zhu1090093659/dsh-web) | 0.4.16 | 仅报过 | 21 个子插件的聚合包，含中继服务 |
+| 🗂️ 会话归档 | [`@linxin666/dsh-session-archive`](https://www.npmjs.com/package/@linxin666/dsh-session-archive) | 0.4.18 | 源码 | 归档旧会话，独立设置页 |
+| 🗃️ 归档管理 | [`@michengai/dsh-archive-manager`](https://github.com/MichengAI/dsh-archive-manager) | 1.3.6 | 源码 | 另一种归档方案，与上一行功能重叠、id 曾冲突 |
+| 🔇 NTR 模式 | [`dsh-ntr`](https://github.com/GDWhisper/dsh-ntr) | 0.4.1（已卸载） | 源码 | 受限 agent 模式（无 MCP、审批链路不同） |
+| 🛰️ 插件市场 / Web 中继 | [`@linxin666/dsh-web-all`](https://github.com/zhu1090093659/dsh-web) | 0.4.18 | 仅报过 | 21 个子插件的聚合包，含中继服务 |
 | 🖥️ 桌面客户端本体 | [`anywhere-labs/dsh-desktop`](https://github.com/anywhere-labs/dsh-desktop) | 2.0.21+ | 仅报过 | 不在插件层，但很多「插件 bug」的现场其实是它的 loader 与市场逻辑 |
 
 ### 👤 作者本人的项目（利益相关，单独列出）

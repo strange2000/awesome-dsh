@@ -59,13 +59,13 @@ Only what I have **used or read**, each row labelled with how far the verificati
 
 | Capability | Project | Version | Verified | One line |
 |---|---|---|---|---|
-| 🧠 Memory / distillation / repo chorography | [`@modusensus/dsh-mneme`](https://github.com/slow-stack/mneme) | 0.12.0 | source | Distills sessions into a local SQLite store; chorography turns a repo's module structure into a searchable wiki |
-| 📺 Scheduled Bilibili browsing | [`dsh-bili-scroll`](https://github.com/c1overzz/dsh-bili-scroll) | 2.5.0 | used | Picks videos per window, scores them from subtitles, writes a daily report, can email or DM it |
+| 🧠 Memory / distillation / repo chorography | [`@modusensus/dsh-mneme`](https://github.com/slow-stack/mneme) | 0.15.1 | source | Distills sessions into a local SQLite store; chorography turns a repo's module structure into a searchable wiki |
+| 📺 Scheduled Bilibili browsing | [`dsh-bili-scroll`](https://github.com/c1overzz/dsh-bili-scroll) | 2.5.2 | used | Picks videos per window, scores them from subtitles, writes a daily report, can email or DM it |
 | 🔄 Free models / in-app upgrade | [`dsh-our-free-model`](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 2.8.3 | source | Routes to free quota plus its own signed upgrade and hot-reload implementation |
-| 🗂️ Session archiving | [`@linxin666/dsh-session-archive`](https://www.npmjs.com/package/@linxin666/dsh-session-archive) | 0.4.16 | source | Archives old sessions, has its own settings page |
-| 🗃️ Archive management | [`@michengai/dsh-archive-manager`](https://github.com/MichengAI/dsh-archive-manager) | 1.2.8 | source | A second archiving approach; overlaps the row above and once collided on its id |
-| 🔇 NTR mode | [`dsh-ntr`](https://github.com/GDWhisper/dsh-ntr) | 0.4.1 | source | Restricted agent mode (no MCP, different approval path) |
-| 🛰️ Plugin market / web relay | [`@linxin666/dsh-web-all`](https://github.com/zhu1090093659/dsh-web) | 0.4.16 | filed | Aggregate of 21 sub-plugins including the relay |
+| 🗂️ Session archiving | [`@linxin666/dsh-session-archive`](https://www.npmjs.com/package/@linxin666/dsh-session-archive) | 0.4.18 | source | Archives old sessions, has its own settings page |
+| 🗃️ Archive management | [`@michengai/dsh-archive-manager`](https://github.com/MichengAI/dsh-archive-manager) | 1.3.6 | source | A second archiving approach; overlaps the row above and once collided on its id |
+| 🔇 NTR mode | [`dsh-ntr`](https://github.com/GDWhisper/dsh-ntr) | 0.4.1 (uninstalled) | source | Restricted agent mode (no MCP, different approval path) |
+| 🛰️ Plugin market / web relay | [`@linxin666/dsh-web-all`](https://github.com/zhu1090093659/dsh-web) | 0.4.18 | filed | Aggregate of 21 sub-plugins including the relay |
 | 🖥️ The desktop client itself | [`anywhere-labs/dsh-desktop`](https://github.com/anywhere-labs/dsh-desktop) | 2.0.21+ | filed | Not a plugin, but many "plugin bugs" are actually its loader and market logic |
 
 ### 👤 The author's own projects (disclosed, listed separately)
