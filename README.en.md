@@ -200,7 +200,7 @@ For people writing plugins. Each one is verifiable with a single grep or a singl
 4. **Read-only forensics first** — capture the database, logs, and install directory before restarting: a restart destroys the scene (memory state, temp files, windows).
 5. **Controlled experiment** — change one variable at a time to separate "my environment" from "a product defect". This step is the foundation of every conclusion after it.
 
-> 🧰 Want ready-made read-only scripts → [`strange2000/dsh-repro`](https://github.com/strange2000/dsh-repro): 21 index entries, 6 zero-dependency auditors, all with `--selftest`.
+> 🧰 Want ready-made read-only scripts → [`strange2000/dsh-repro`](https://github.com/strange2000/dsh-repro): 22 index entries, 6 zero-dependency auditors, all with `--selftest`.
 
 ---
 

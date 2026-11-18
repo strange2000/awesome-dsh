@@ -75,7 +75,7 @@
 | 能力 | 项目 | 验证 | 一句话 |
 |---|---|---|---|
 | 🪟 界面改造（纯 CSS 皮肤） | [`dsh-tight-sidebar`](https://github.com/strange2000/dsh-tight-sidebar) | 源码 | 把纵向空间还给工作区，砍掉约 110px 面板高度 |
-| 🧪 报 issue 的材料方法 | [`dsh-repro`](https://github.com/strange2000/dsh-repro) | 源码 | 21 条已报问题的索引 + 6 套只读审计器，回答「我这份版本还会不会这样」 |
+| 🧪 报 issue 的材料方法 | [`dsh-repro`](https://github.com/strange2000/dsh-repro) | 源码 | 22 条已报问题的索引 + 6 套只读审计器，回答「我这份版本还会不会这样」 |
 | 🔌 双系统共用一个数据库 | [`mneme-dual-boot`](https://github.com/strange2000/mneme-dual-boot) | 源码 | 交接协议 + 参考实现 + 两个操作系统上的实测数字 |
 
 > 📏 **收录口径**：至少一种验证成立，且不是纯个人偏好。
@@ -200,7 +200,7 @@
 4. **只读取证** —— 先抓数据库、日志、安装目录，别急着重启：重启会毁掉现场（内存状态、临时文件、窗口）。
 5. **对照实验** —— 一次只改一个变量，把「环境问题」和「产品缺陷」分开。这一步是后面所有结论的地基。
 
-> 🧰 需要现成的只读脚本 → [`strange2000/dsh-repro`](https://github.com/strange2000/dsh-repro)：21 条索引，6 套零依赖审计器，都带 `--selftest`。
+> 🧰 需要现成的只读脚本 → [`strange2000/dsh-repro`](https://github.com/strange2000/dsh-repro)：22 条索引，6 套零依赖审计器，都带 `--selftest`。
 
 ---
 
